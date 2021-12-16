@@ -1,0 +1,45 @@
+
+body{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.644) 0%, rgba(129, 88, 88, 0.5) 100%), url(../styles/img/lenguajes-programacion-978x652.jpg);
+    background-position: center center;
+	background-size: cover;
+	margin-bottom: 12.12em;   
+    font-family: 'Comic Neue', cursive;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    padding-top:30px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+form{
+  padding-left:35%;
+ width:100%;
+}
+
+input{
+    height: 25px
+}
+#submit{
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+    border-radius:10px;
+    color: white;
+    padding: 30px;
+    margin:30px;
+    align-items: center;
+    
+}
+#submit:hover{
+background-color:rgb(188, 9, 219);
+color:black;
+cursor: pointer;
+
+}
+textarea{
+    background:rgba(9, 71, 107, 0.575);
+}

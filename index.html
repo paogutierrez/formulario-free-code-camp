@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bebas+Neue&family=M+PLUS+1p&family=Montserrat:wght@200;300;500&family=Noto+Sans+Mono:wght@600;900&family=Noto+Serif:ital,wght@1,700&family=Oswald:wght@300;400&family=Permanent+Marker&family=Poiret+One&family=Press+Start+2P&family=Roboto+Mono:wght@300;500&family=Shippori+Antique+B1&family=Source+Sans+3&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1 id="title">Formulario</h1>
+    <p id="description"> ¡Queremos conocerte mas!</p>
+    
+    <form id="survey-form">
+
+        <div>
+            <label for="name "id="name-label">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
+        </div>
+        <div>
+            <label for="email" id="email-label">Correo Electronico</label>
+            <input type="email" id="email" name="email" placeholder="Escribe tu email" required>   
+        </div>
+        <div>
+            <label for="number" id="number-label">Edad (Opcional)</label>
+            <input type="number" id="number" name="age" min=10 max=100 placeholder="Edad" required > 
+        </div>
+
+        <div>
+            <label for="dropdown" id="seleccion">Que sistema operativo usas</label>
+            <select id="dropdown">
+                <option value="windows">Windows</option>
+                <option value="linux">Linux</option>
+                <option value="mac">Mac</option>          
+        </select>
+        </div>
+
+<hr>
+        <label for="lenguajes" id="lenguaje">Elige un lenguaje que te gustaria aprender</label>
+
+        <div>
+            <input type="radio" id="javascript" name="lenguaje" value="javascript">
+            <label for="lenguajes">Javascript</label>
+        </div>
+
+        <div>
+            <input type="radio" id="python" name="lenguaje" value="phyton">
+            <label for="lenguajes">Phyton</label>
+        </div>
+
+        <div>
+            <input type="radio" id="php" name="lenguaje" value="php">
+            <label for="lenguajes">PHP</label>
+        </div>
+        <div>
+            <input type="radio" id="c++" name="lenguaje" value="c++">
+            <label for="lenguajes">C++</label>
+        </div>
+        <div>
+            <input type="radio" id="java" name="lenguaje" value="java">
+             <label for="lenguajes">Java</label>
+        </div>
+        <div>
+            <input type="radio" id="c#" name="lenguaje" value="c#">
+            <label for="lenguajes">C#</label>
+        </div>
+
+        <label for="intereses">Intereses</label>
+        <div>
+            <input type="checkbox" id="checkbox" name="Intereses" value="like">
+            <label for="checkbox">Desarrollar Videojuegos</label>
+        </div>
+        <div>
+            <input type="checkbox" id="checkbox" name="Intereses" value="like1">
+            <label for="checkbox">Desarrollar App</label>
+        </div>
+        <div>
+            <input type="checkbox" id="checkbox" name="Intereses" value="like2">
+            <label for="checkbox">Desarrollar Videojuegos</label>
+        </div>
+        <div>
+            <input type="checkbox" id="checkbox" name="Intereses" value="like3">
+            <label for="checkbox">Inteligencia Artificial</label>
+        </div>
+
+
+            <label for="mensaje">Comentarios</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10">Dejanos un mensaje</textarea>
+
+            <div>
+            <input type="submit"id="submit" value="Enviar" >
+            </div>
+    </form>
+
+</body>
+</html>
